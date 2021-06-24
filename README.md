@@ -1,4 +1,4 @@
-# Веб-сервер на Ubuntu 20: nginx, HTTPS, Brotli и HTTP/2
+# Веб-сервер на Ubuntu 20: nginx, HTTPS, Brotli, HTTP/2
 
 - [Nano](0-nano.md)
 - [Сервер](1-server.md)
