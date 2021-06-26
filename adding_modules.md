@@ -29,7 +29,7 @@ apt install libxslt1-dev
 ```
 
 После установки пакетов необходимо переписать конфигурацию nginx с добавлением модуля и выполнить его командой ./configure. 
-Например:
+Например с добавлением модуля --with-http_mp4_module:
 
 ```
 ./configure --prefix=/etc/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log
@@ -39,7 +39,7 @@ apt install libxslt1-dev
 --without-http_browser_module --with-http_geoip_module --without-http_memcached_module --without-http_referer_module
 --without-http_scgi_module --without-http_split_clients_module --with-http_stub_status_module --without-http_ssi_module
 --without-http_userid_module --without-http_uwsgi_module
-**--with-http_mp4_module**
+--with-http_mp4_module
 ```
 
 **В процессе конфигурирования возможно будут появляться ошибки в связи отсутствия каких-то модулей.**
